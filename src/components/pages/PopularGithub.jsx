@@ -20,7 +20,7 @@ export default function PopularGithub() {
           </code>
           . <br />
           It should be inside a{" "}
-          <code>useEffect(() => {"{"} /* ... */ }, [])</code>
+          <code>{`useEffect(() => { /* ... */ }, [])`}</code>
         </li>
         <li>
           Change the state <code>repos</code> (with <code>setRepos</code>) by
