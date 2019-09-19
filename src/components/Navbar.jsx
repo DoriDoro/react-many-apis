@@ -1,17 +1,18 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
 
 export default function Navbar() {
   return (
     <div className="Navbar">
-      <a className="Navbar__link Navbar__link--main" href="/">
+      <NavLink className="Navbar__link Navbar__link--main" to="/">
         React Many APIs
-      </a>
-      <a className="Navbar__link" href="/popular-github">
+      </NavLink>
+      <NavLink className="Navbar__link" to="/popular-github">
         Popular on GitHub
-      </a>
-      <a className="Navbar__link" href="/crud-todos">
+      </NavLink>
+      <NavLink className="Navbar__link" to="/crud-todos">
         CRUD TODOs
-      </a>
+      </NavLink>
     </div>
   );
 }

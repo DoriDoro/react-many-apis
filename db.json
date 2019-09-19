@@ -1,16 +1,28 @@
 {
-  "todos":[
-     {
-        "id":1,
-        "item":"Buy Apples"
-     },
-     {
-        "id":2,
-        "item":"Buy carrots"
-     },
-     {
-        "id":3,
-        "name":"Finish the Lab React Training"
-     }
+  "todos": [
+    {
+      "id": 1,
+      "item": "Buy Apples"
+    },
+    {
+      "id": 2,
+      "item": "Buy carrots"
+    },
+    {
+      "id": 3,
+      "item": "Finish the Lab React Training"
+    },
+    {
+      "item": "Banana",
+      "id": 4
+    },
+    {
+      "item": "Carrot",
+      "id": 5
+    },
+    {
+      "item": "Coconut",
+      "id": 6
+    }
   ]
 }
