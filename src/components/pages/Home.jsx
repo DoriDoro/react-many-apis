@@ -4,7 +4,12 @@ export default function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <p>Welcome to this website to play with React and APIs <span role="img" aria-label="spaceship">🚀</span></p>
+      <p>
+        Welcome to this website to play with React and APIs{" "}
+        <span role="img" aria-label="spaceship">
+          🚀
+        </span>
+      </p>
       <p>To start, you need to:</p>
       <ol>
         <li>
@@ -19,10 +24,8 @@ export default function Home() {
           <code>Route</code>
         </li>
         <li>
-          In <u>src/components/MainNavbar.jsx</u>, add some <code>NavLink</code>
-          . You will need to{" "}
-          <code>{"import {NavLink as NLink} from 'react-router-dom'"}</code> and
-          add a <code>tag={"{NLink}"}</code> inside the <code>NavLink</code>
+          In <u>src/components/Navbar.jsx</u>, add some <code>NavLink</code> to
+          replace the <code>{"<a>"}</code> tags.
         </li>
       </ol>
     </div>

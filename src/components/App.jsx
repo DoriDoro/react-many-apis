@@ -1,21 +1,18 @@
 import React from 'react';
-import MainNavbar from './MainNavbar'
+import MainNavbar from './Navbar'
 import Home from './pages/Home';
 import PopularGithub from './pages/PopularGithub';
-import {
-  Container
-} from "reactstrap";
 import CrudTodos from './pages/CrudTodos';
 
 function App() {
   return (
     <div className="App">
       <MainNavbar />
-      <Container>
+      <div className="container">
         <Home />
         <PopularGithub />
         <CrudTodos />
-      </Container>
+      </div>
     </div>
   );
 }

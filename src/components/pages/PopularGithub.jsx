@@ -18,6 +18,9 @@ export default function PopularGithub() {
             GET
             https://api.github.com/search/repositories?sort=stars&q=language:javascript
           </code>
+          . <br />
+          It should be inside a{" "}
+          <code>useEffect(() => {"{"} /* ... */ }, [])</code>
         </li>
         <li>
           Change the state <code>repos</code> (with <code>setRepos</code>) by
